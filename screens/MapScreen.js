@@ -64,7 +64,6 @@ export default function MapScreen() {
   return (
     <MapView
       provider={PROVIDER_GOOGLE}
-      showsUserLocation={true}
       style={{flex: 1}}
       region={{
         latitude: 49.203226787844116,
